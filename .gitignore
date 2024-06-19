@@ -1,6 +1,5 @@
 log/
 src/log/
-.vscode/
 build/
 install/
 *.pcd

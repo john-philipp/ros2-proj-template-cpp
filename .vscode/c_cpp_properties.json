@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/opt/ros/humble/include/**",
+                "/usr/include/c++/11" // Adjust according to your GCC version
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc", // Adjust if you use Clang, e.g., /usr/bin/clang
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64" // Or "linux-clang-x64" if using Clang
+        }
+    ],
+    "version": 4
+}
