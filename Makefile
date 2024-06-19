@@ -13,4 +13,4 @@ build-debug:
 	bash -c scripts/cmake-build-debug.sh
 
 run:
-	./build/main/main
+	./build/main
